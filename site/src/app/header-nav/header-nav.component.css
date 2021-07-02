@@ -11,7 +11,7 @@ a.nav-link{
 }
 
  a.nav-link:hover {
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid black;
   }
 
   a.dropdown-item:hover {

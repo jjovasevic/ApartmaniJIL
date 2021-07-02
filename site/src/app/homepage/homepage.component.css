@@ -16,27 +16,6 @@ bg-cover {
 .btn:hover{
      background-color: #333333;
 }
-
-/* .carousel{ 
-    height: 100vh;
+#homeId{
+     margin-top: 56px;
 }
-.carousel-inner,.carousel-item {
-     height: 100%;
-}
-.carousel-item img {
-     height: 100%; 
-     object-fit: cover; 
-     object-position: center;
-}
-
-div.col-sm-4{
-     padding-bottom: 3%;
-     padding-right: 1%;
-}
-
-div.col-sm-4:hover{
-     transition: transform 0.7s;
-     transform: scale(1.1);
- } */
-
-
