@@ -1,0 +1,124 @@
+<div style="background: url('../assets/4.jpg')"  class="jumbotron bg-cover text-white">
+  <div class="container py-5 text-center">
+      <h1 class="display-5 font-italic mb-0">Apartmani iz snova</h1>
+      <br>
+      <p class="font-italic mb-0">Najatraktivniji apartmani na različitim, ali najlepšim mestima u Srbiji!</p>
+      <br>
+      <p class="font-italic">Pogledajte našu ponudu
+          <!-- <a href="https://bootstrapious.com" class="text-white">
+              <u>Bootstrapious</u>
+          </a> -->
+      </p>
+      <a [routerLink]="['/apartments']" role="button" class="btn btn-primary px-5">Apartmani</a>
+  </div>
+</div>
+
+<div class="container py-5">
+  <h2 class="h3 font-weight-bold">Some demo content</h2>
+  <div class="row">
+      <div class="col-lg-10 mb-4">
+          <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
+          <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
+      </div>
+      <div class="col-lg-8">
+          <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur <strong class="font-weight-bold text-dark">adipisicing elit, sed </strong>do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in <strong class="font-weight-bold text-dark">reprehenderit in voluptate </strong>velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+  </div>
+</div>
+
+<div class="card mb-3">
+  <img src="'../../assets/2.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Zasto smo toliko uspesni?</h5>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+      cao cao
+      cao
+      cao
+    </p>
+  </div>
+</div>
+
+
+
+
+
+<!-- <div>
+  <div class="container-fluid px-0">
+    <div id="bootstrapCarousel" class="carousel slide" data-ride="carousel"> -->
+      <!-- Slide Indicators -->
+      <!-- <ul class="carousel-indicators">
+        <li data-target="#bootstrapCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#bootstrapCarousel" data-slide-to="1"></li>
+        <li data-target="#bootstrapCarousel" data-slide-to="2"></li>
+      </ul> -->
+
+      <!-- The slides to show -->
+      <!-- <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <img src="../../assets/images/Carousel/2.jpg" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="../../assets/images/Carousel/3.jpg" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="../../assets/images/Carousel/1.jpg" class="d-block w-100">
+        </div>
+      </div> -->
+
+      <!--  Controls (Left and right) -->
+      <!-- <a class="carousel-control-prev" href="#bootstrapCarousel" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#bootstrapCarousel" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </div>
+
+  <div *ngIf="language; else english" class="container-fluid" style="padding-top: 4%;">
+    <div class="row">
+      <div class="col-sm-4"><img [routerLink]="['/gallery/0']" src="../../assets/images/pocetnalinkslike/kuhinje.jpg"
+          class="d-block w-100">
+      </div>
+      <div class="col-sm-4"><img [routerLink]="['/gallery/1']" src="../../assets/images/pocetnalinkslike/plakari.jpg"
+          class="d-block w-100"></div>
+      <div class="col-sm-4"><img [routerLink]="['/gallery/2']"
+          src="../../assets/images/pocetnalinkslike/spavacasoba.jpg" class="d-block w-100"></div>
+      <div class="w-100"></div>
+      <div class="col-sm-4"><img [routerLink]="['/gallery/3']" src="../../assets/images/pocetnalinkslike/boravak.jpg"
+          class="d-block w-100"></div>
+      <div class="col-sm-4"><img [routerLink]="['/gallery/4']"
+          src="../../assets/images/pocetnalinkslike/poslovniprostori.jpg" class="d-block w-100"></div>
+      <div class="col-sm-4"><img [routerLink]="['/gallery/5']" src="../../assets/images/pocetnalinkslike/vrata.jpg"
+          class="d-block w-100"></div>
+    </div>
+  </div>
+
+  <ng-template #english>
+    <div class="container-fluid" style="padding-top: 4%;">
+      <div class="row">
+        <div class="col-sm-4"><img [routerLink]="['/gallery/0']" src="../../assets/images/pocetnalinkslike/kitchens.jpg"
+            class="d-block w-100">
+        </div>
+        <div class="col-sm-4"><img [routerLink]="['/gallery/1']"
+            src="../../assets/images/pocetnalinkslike/wardrobes.jpg" class="d-block w-100"></div>
+        <div class="col-sm-4"><img [routerLink]="['/gallery/2']" src="../../assets/images/pocetnalinkslike/bedrooms.jpg"
+            class="d-block w-100"></div>
+        <div class="w-100"></div>
+        <div class="col-sm-4"><img [routerLink]="['/gallery/3']"
+            src="../../assets/images/pocetnalinkslike/living_room.jpg" class="d-block w-100"></div>
+        <div class="col-sm-4"><img [routerLink]="['/gallery/4']"
+            src="../../assets/images/pocetnalinkslike/workspaces.jpg" class="d-block w-100"></div>
+        <div class="col-sm-4"><img [routerLink]="['/gallery/5']" src="../../assets/images/pocetnalinkslike/doors.jpg"
+            class="d-block w-100"></div>
+      </div>
+    </div>
+  </ng-template>
+
+
+  <div class="card text-center">
+    <div class="embed-responsive embed-responsive-21by9">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8tB8YKQ_dnA" allowfullscreen></iframe>
+    </div>
+  </div>
+</div> -->

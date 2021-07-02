@@ -1,0 +1,42 @@
+bg-cover {
+     background-size: cover !important;
+     /* background-repeat: no-repeat; */
+ }
+ 
+ body {
+     min-height: 100vh;
+     
+ }
+
+ .btn {
+      background-color: #555555;
+      border: #555555;
+     }
+
+.btn:hover{
+     background-color: #333333;
+}
+
+/* .carousel{ 
+    height: 100vh;
+}
+.carousel-inner,.carousel-item {
+     height: 100%;
+}
+.carousel-item img {
+     height: 100%; 
+     object-fit: cover; 
+     object-position: center;
+}
+
+div.col-sm-4{
+     padding-bottom: 3%;
+     padding-right: 1%;
+}
+
+div.col-sm-4:hover{
+     transition: transform 0.7s;
+     transform: scale(1.1);
+ } */
+
+

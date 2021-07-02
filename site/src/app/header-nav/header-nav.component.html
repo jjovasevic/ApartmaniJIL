@@ -1,0 +1,57 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">JIL Apartmani</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" [routerLink]="['/']">Početna</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/apartments']">Apartmani</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Galerija</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/about']">Kontakt</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
+  <a class="navbar-brand" [routerLink]="['/']"><img style="max-width:100px;" src="../../assets/logoTransparent.png"
+      (click)="scrollToTop()"></a>
+  <button class=" navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" [routerLink]="['/']"
+          (click)="scrollToTop()" translate>header.home</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" [routerLink]="['/products']"
+          (click)="scrollToTop()" translate>header.products</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" [routerLink]="['/about']"
+          (click)="scrollToTop()" translate>header.about</a>
+      </li>
+    </ul>
+    <form class="form-inline mt-2 mt-md-0">
+      <button type='button' class="btn my-2 my-sm-0 no-outline" data-toggle="collapse"
+        data-target=".navbar-collapse.show" (click)="changeLanguage('sr')"><img src="../../assets/srp.png"
+          style="max-width:27px;">Srpski</button>
+      <button type='button' class="btn my-2 my-sm-0 no-outline" data-toggle="collapse"
+        data-target=".navbar-collapse.show" (click)="changeLanguage('en')"><img src="../../assets/uk.png"
+          style="max-width:27px;">English</button>
+    </form>
+  </div>
+</nav> -->
