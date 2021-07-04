@@ -14,7 +14,8 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core'
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { ApartmentsComponent } from './apartments/apartments.component';
-import { PricesComponent } from './prices/prices.component'
+import { PricesComponent } from './prices/prices.component';
+import { ContactComponent } from './contact/contact.component'
 
 export function rootLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, "assets/i18n/", ".json")
@@ -30,7 +31,8 @@ export function rootLoaderFactory(http: HttpClient) {
     AboutComponent,
     ProductsComponent,
     ApartmentsComponent,
-    PricesComponent
+    PricesComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

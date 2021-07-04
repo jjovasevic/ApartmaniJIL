@@ -31,18 +31,6 @@ export class GalleryComponent implements OnInit, OnDestroy {
     this.picNumber = picNumber;
   }
 
-  goNext() {
-    this.picNumber = this.picNumber % this.images.length + 1;
-  }
-
-  goPrevious() {
-    if (this.picNumber - 1 === 0)
-      this.picNumber = this.images.length;
-    else
-      this.picNumber -= 1;
-  }
-
-
   ngOnInit(): void {
   }
 
