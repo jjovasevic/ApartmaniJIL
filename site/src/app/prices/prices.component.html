@@ -1,183 +1,202 @@
-<div class="demo10" id="priceId">
-    <div class="container">
-        <h4 class="py-4 text-center">Cene apartmana</h4>
-        <div class="row">
-            <div class="col-md-3 col-sm-6">
-                <div class="pricingTable10">
-                    <div class="pricingTable-header">
-                        <h3 class="heading">Splav Perućac</h3>
-                        <span class="price-value">
-                            <span class="currency">€</span> 70 
-                            <span class="days">/day</span>
-                        </span>
-                    </div>
-                    <div class="pricing-content">
-                        <ul>
-                            <li>Za četiri odrasle osobe</li>
-                            <li>Wifi uračunat u cenu</li>
-                            <li>Parking u blizini splava</li>
-                            <li>Zaštita od komaraca</li>
-                            <li>Pribor za pecanje</li>
-                        </ul>
-                        <a [routerLink]="['/gallery/1']" class="read">Pogledaj smeštaj</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="pricingTable10">
-                    <div class="pricingTable-header">
-                        <h3 class="heading">Planinska kuća</h3>
-                        <span class="price-value">
-                            <span class="currency">€</span> 90
-                            <span class="days">/day</span>
-                        </span>
-                    </div>
-                    <div class="pricing-content">
-                        <ul>
-                            <li>Tara</li>
-                            <li>Smeštaj za šestoro</li>
-                            <li>Besplatan wifi</li>
-                            <li>Besplatan parking</li>
-                            <li>Okružena prirodom</li>
-                        </ul>
-                        <a [routerLink]="['/gallery/2']" class="read">Pogledaj smeštaj</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="pricingTable10">
-                    <div class="pricingTable-header">
-                        <h3 class="heading">Banjska Stena</h3>
-                        <span class="price-value">
-                            <span class="currency">€</span> 120
-                            <span class="days">/day</span>
-                        </span>
-                    </div>
-                    <div class="pricing-content">
-                        <ul>
-                            <li>Perućac jezero</li>
-                            <li>Dozvoljeni ljubimci</li>
-                            <li>Besplatan parking, wifi</li>
-                            <li>Piknik prostor</li>
-                            <li>Stoni tenis</li>
-                        </ul>
-                        <a [routerLink]="['/gallery/3']" class="read">Pogledaj smeštaj</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="pricingTable10">
-                    <div class="pricingTable-header">
-                        <h3 class="heading">Centar Apartman</h3>
-                        <span class="price-value">
-                            <span class="currency">€</span> 80
-                            <span class="days">/day</span>
-                        </span>
-                    </div>
-                    <div class="pricing-content">
-                        <ul>
-                            <li>Centar Beograda</li>
-                            <li>Apartman za dvoje</li>
-                            <li>Besplatan wifi, parking</li>
-                            <li>Klima uključena u cenu</li>
-                            <li>Prostor za pušače</li>
-                        </ul>
-                        <a [routerLink]="['/gallery/4']" class="read">Pogledaj smeštaj</a>
-                    </div>
-                </div>
-            </div>
+<header>
+    <div class="overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="../../assets/VukovSplav.mp4" type="video/mp4">
+    </video>
+    <div class="container h-100">
+      <div class="d-flex h-100 text-center align-items-center">
+        <div class="w-100 text-white">
+          <h1 class="display-3">Happy Homes</h1>
+          <p class="lead mb-0">Pogledajte našu ponudu</p>
         </div>
+      </div>
     </div>
-</div>
+  </header>
 
-<div class="demo10">
-    <div class="container">
-        <!-- <h4 class="py-4 text-center">Cene apartmana</h4> -->
-        <div class="row">
-            <div class="col-md-3 col-sm-6">
-                <div class="pricingTable10">
-                    <div class="pricingTable-header">
-                        <h3 class="heading">Sokobanja</h3>
-                        <span class="price-value">
-                            <span class="currency">€</span> 40 
-                            <span class="days">/day</span>
-                        </span>
-                    </div>
-                    <div class="pricing-content">
-                        <ul>
-                            <li>Smeštaj za dvoje</li>
-                            <li>Smešten u samom centru</li>
-                            <li>Balkon</li>
-                            <li>Besplatan wifi, parking</li>
-                            <li>Dozvoljeni kućni ljubimci</li>
-                        </ul>
-                        <a [routerLink]="['/gallery/5']" class="read">Pogledaj smeštaj</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="pricingTable10">
-                    <div class="pricingTable-header">
-                        <h3 class="heading">Apartman Darija</h3>
-                        <span class="price-value">
-                            <span class="currency">€</span> 55
-                            <span class="days">/day</span>
-                        </span>
-                    </div>
-                    <div class="pricing-content">
-                        <ul>
-                            <li>Fruška gora</li>
-                            <li>Smeštaj za petoro</li>
-                            <li>Jahanje</li>
-                            <li>Pecanje</li>
-                            <li>Besplatan wifi, parking</li>
-                        </ul>
-                        <a [routerLink]="['/gallery/6']" class="read">Pogledaj smeštaj</a>
+<!-- <div style="background-image: url(../assets/bela.jpg)!important; background-size: cover; background-repeat: no-repeat;"> -->
+<div style="background-color: rgb(238, 238, 238);">
+    <div class="demo10" id="priceId">
+        <div class="container">
+            <h2 class="py-4 text-center" style="font-family: varsity;">Cene apartmana</h2>
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="pricingTable10">
+                        <div class="pricingTable-header">
+                            <h3 class="heading">Splav Perućac</h3>
+                            <span class="price-value">
+                                <span class="currency">€</span> 70 
+                                <span class="days">/day</span>
+                            </span>
+                        </div>
+                        <div class="pricing-content">
+                            <ul>
+                                <li>Za četiri odrasle osobe</li>
+                                <li>Wifi uračunat u cenu</li>
+                                <li>Parking u blizini splava</li>
+                                <li>Zaštita od komaraca</li>
+                                <li>Pribor za pecanje</li>
+                            </ul>
+                            <a [routerLink]="['/gallery/1']" class="read">Pogledaj smeštaj</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="pricingTable10">
-                    <div class="pricingTable-header">
-                        <h3 class="heading">Bungalov Jelena</h3>
-                        <span class="price-value">
-                            <span class="currency">€</span> 60
-                            <span class="days">/day</span>
-                        </span>
-                    </div>
-                    <div class="pricing-content">
-                        <ul>
-                            <li>USKORO U PONUDI</li>
-                            <li>Stara planina</li>
-                            <li>Smeštaj za dvoje</li>
-                            <li>Škola skijanja, skijašnica</li>
-                            <li>Besplatan parking, wifi</li>
-                        </ul>
-                        <a [routerLink]="['/gallery/7']" class="read">Pogledaj smeštaj</a>
+                <div class="col-md-3 col-sm-6">
+                    <div class="pricingTable10">
+                        <div class="pricingTable-header">
+                            <h3 class="heading">Planinska kuća</h3>
+                            <span class="price-value">
+                                <span class="currency">€</span> 90
+                                <span class="days">/day</span>
+                            </span>
+                        </div>
+                        <div class="pricing-content">
+                            <ul>
+                                <li>Tara</li>
+                                <li>Smeštaj za šestoro</li>
+                                <li>Besplatan wifi</li>
+                                <li>Besplatan parking</li>
+                                <li>Okružena prirodom</li>
+                            </ul>
+                            <a [routerLink]="['/gallery/2']" class="read">Pogledaj smeštaj</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="pricingTable10">
-                    <div class="pricingTable-header">
-                        <h3 class="heading">Nišlije</h3>
-                        <span class="price-value">
-                            <span class="currency">€</span> 85
-                            <span class="days">/day</span>
-                        </span>
+                <div class="col-md-3 col-sm-6">
+                    <div class="pricingTable10">
+                        <div class="pricingTable-header">
+                            <h3 class="heading">Banjska Stena</h3>
+                            <span class="price-value">
+                                <span class="currency">€</span> 120
+                                <span class="days">/day</span>
+                            </span>
+                        </div>
+                        <div class="pricing-content">
+                            <ul>
+                                <li>Perućac jezero</li>
+                                <li>Dozvoljeni ljubimci</li>
+                                <li>Besplatan parking, wifi</li>
+                                <li>Piknik prostor</li>
+                                <li>Stoni tenis</li>
+                            </ul>
+                            <a [routerLink]="['/gallery/3']" class="read">Pogledaj smeštaj</a>
+                        </div>
                     </div>
-                    <div class="pricing-content">
-                        <ul>
-                            <li>USKORO U PONUDI</li>
-                            <li>Niš</li>
-                            <li>Smeštaj za petoro</li>
-                            <li>Spa sadržaj</li>
-                            <li>Uži centar grada</li>
-                        </ul>
-                        <a [routerLink]="['/gallery/8']" class="read">Pogledaj smeštaj</a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="pricingTable10">
+                        <div class="pricingTable-header">
+                            <h3 class="heading">Centar Apartman</h3>
+                            <span class="price-value">
+                                <span class="currency">€</span> 80
+                                <span class="days">/day</span>
+                            </span>
+                        </div>
+                        <div class="pricing-content">
+                            <ul>
+                                <li>Centar Beograda</li>
+                                <li>Apartman za dvoje</li>
+                                <li>Besplatan wifi, parking</li>
+                                <li>Klima uključena u cenu</li>
+                                <li>Prostor za pušače</li>
+                            </ul>
+                            <a [routerLink]="['/gallery/4']" class="read">Pogledaj smeštaj</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    
+    <div class="demo10">
+        <div class="container">
+            <!-- <h4 class="py-4 text-center">Cene apartmana</h4> -->
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="pricingTable10">
+                        <div class="pricingTable-header">
+                            <h3 class="heading">Sokobanja</h3>
+                            <span class="price-value">
+                                <span class="currency">€</span> 40 
+                                <span class="days">/day</span>
+                            </span>
+                        </div>
+                        <div class="pricing-content">
+                            <ul>
+                                <li>Smeštaj za dvoje</li>
+                                <li>Smešten u samom centru</li>
+                                <li>Balkon</li>
+                                <li>Besplatan wifi, parking</li>
+                                <li>Dozvoljeni kućni ljubimci</li>
+                            </ul>
+                            <a [routerLink]="['/gallery/5']" class="read">Pogledaj smeštaj</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="pricingTable10">
+                        <div class="pricingTable-header">
+                            <h3 class="heading">Apartman Darija</h3>
+                            <span class="price-value">
+                                <span class="currency">€</span> 55
+                                <span class="days">/day</span>
+                            </span>
+                        </div>
+                        <div class="pricing-content">
+                            <ul>
+                                <li>Fruška gora</li>
+                                <li>Smeštaj za petoro</li>
+                                <li>Jahanje</li>
+                                <li>Pecanje</li>
+                                <li>Besplatan wifi, parking</li>
+                            </ul>
+                            <a [routerLink]="['/gallery/6']" class="read">Pogledaj smeštaj</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="pricingTable10">
+                        <div class="pricingTable-header">
+                            <h3 class="heading">Bungalov Jelena</h3>
+                            <span class="price-value">
+                                <span class="currency">€</span> 60
+                                <span class="days">/day</span>
+                            </span>
+                        </div>
+                        <div class="pricing-content">
+                            <ul>
+                                <li>USKORO U PONUDI</li>
+                                <li>Stara planina</li>
+                                <li>Smeštaj za dvoje</li>
+                                <li>Škola skijanja, skijašnica</li>
+                                <li>Besplatan parking, wifi</li>
+                            </ul>
+                            <a [routerLink]="['/gallery/7']" class="read">Pogledaj smeštaj</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="pricingTable10">
+                        <div class="pricingTable-header">
+                            <h3 class="heading">Nišlije</h3>
+                            <span class="price-value">
+                                <span class="currency">€</span> 85
+                                <span class="days">/day</span>
+                            </span>
+                        </div>
+                        <div class="pricing-content">
+                            <ul>
+                                <li>USKORO U PONUDI</li>
+                                <li>Niš</li>
+                                <li>Smeštaj za petoro</li>
+                                <li>Spa sadržaj</li>
+                                <li>Uži centar grada</li>
+                            </ul>
+                            <a [routerLink]="['/gallery/8']" class="read">Pogledaj smeštaj</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 </div>

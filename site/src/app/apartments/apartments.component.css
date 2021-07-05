@@ -59,7 +59,7 @@
 .blog .entry .entry-content .view-gallery a:hover {
   background: #000000;
 }
-  
+
 
 .breadcrumbs {
     padding: 18px 0;
@@ -95,4 +95,17 @@
     .breadcrumbs ol li {
       display: inline-block;
     }
+  }
+
+  /* header slika */
+  .page-holder {
+    min-height: 40vh;
+  }
+  
+  .bg-cover {
+    background-size: cover !important;
+  }
+
+  .page-holder{
+    height: 60vh;
   }

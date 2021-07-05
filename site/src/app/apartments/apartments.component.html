@@ -1,168 +1,207 @@
-<section id="breadcrumbs" class="breadcrumbs">
-    <div class="container">
+<div style="background: url(../../assets/kuca.jpg)" class="page-holder bg-cover">
 
-        <div class="d-flex justify-content-between align-items-center">
-            <h2 class="text" style="font-family: varsity;" translate>Happy Holiday Apartmani</h2>
-        </div>
-
+    <div class="container py-5">
+      <header class="text-center text-white py-5">
+        <!-- <h2 class="display-4 font-weight-bold mb-4">Doyivite najlepše trenutke...</h2> -->
+        <!-- <p class="lead mb-0">Create a responsive full-page background image window using Bootstrap 4.</p>
+        <p class="font-italic">Snippet By <a href="https://bootstrapious.com" class="text-white">
+            <u>Bootstrapious</u></a>
+        </p> -->
+      </header>
+  
+      <div class="text-white">
+        <!-- <p class="lead">It's not a good approch to deal directly with <code class="bg-white px-2 py-1 rounded">body</code> So, create a wrapper container and make it a full-window height.</p>
+        <p class="lead">Set the wrapper initial height to full window height using <code class="bg-white px-2 py-1 rounded">min-height: 100vh</code></p>
+        <p class="lead">Use <code class="bg-white px-2 py-1 rounded">.bg-cover</code> to make the background fit all viewports.</p> -->
+      </div>
+  
     </div>
-</section>
+  </div>
 
-<!-- ======= Blog Section ======= -->
-<section id="blog" class="blog">
-    <div class="container">
-
-        <div class="row">
-
-            <div class="col-lg-4  col-md-6 d-flex align-items-stretch">
-                <article class="entry card border-secondary mb-3">
-
-                    <div class="entry-img">
-                        <img src="../../assets/images/cards/kuhinja.jpg" alt="" class="img-fluid">
-                    </div>
-
-                    <h2 class="entry-title">
-                        <a translate>products.kitchen_title</a>
-                    </h2>
-
-
-                    <div class="entry-content">
-                        <p translate>
-                            products.kitchen_text_1
-                            <br>
-                            products.kitchen_text_2
-
-                        </p>
-                        <div class="view-gallery">
-                            <a [routerLink]="['/gallery/0']" translate>products.gallery</a>
-                        </div>
-                    </div>
-
-                </article>
+<!-- <div style="background-image: url(../assets/b2.jpg)!important; background-size: cover; background-repeat: no-repeat;"> -->
+<div>
+    <section id="breadcrumbs" class="breadcrumbs">
+        <div class="container">
+    
+            <div class="d-flex justify-content-between align-items-center">
+                <h2 class="text" style="font-family: varsity;" translate>Happy Holiday Apartmani</h2>
             </div>
-
-            <div class="col-lg-4  col-md-6 d-flex align-items-stretch">
-                <article class="entry card border-secondary mb-3">
-
-                    <div class="entry-img">
-                        <img src="../../assets/images/cards/poslovniprostor.jpg" alt="" class="img-fluid">
-                    </div>
-
-                    <h2 class="entry-title">
-                        <a translate>products.workspace_title</a>
-                    </h2>
-
-                    <div class="entry-content">
-                        <p translate>
-                            products.workspace_text
-                        </p>
-                        <div class="view-gallery">
-                            <a [routerLink]="['/gallery/4']" translate>products.gallery</a>
-                        </div>
-                    </div>
-
-                </article>
-            </div>
-
-            <div class="col-lg-4  col-md-6 d-flex align-items-stretch">
-                <article class="entry card border-secondary mb-3">
-
-                    <div class="entry-img">
-                        <img src="../../assets/images/cards/plakari.jpg" alt="" class="img-fluid">
-                    </div>
-
-                    <h2 class="entry-title">
-                        <a translate>products.wardrobes_title</a>
-                    </h2>
-
-
-
-                    <div class="entry-content">
-                        <p translate>
-                            products.wardrobes_text
-                        </p>
-                        <div class="view-gallery">
-                            <a [routerLink]="['/gallery/1']" translate>products.gallery</a>
-                        </div>
-                    </div>
-
-                </article>
-            </div>
-
-            <div class="col-lg-4  col-md-6 d-flex align-items-stretch">
-                <article class="entry card border-secondary mb-3">
-
-                    <div class="entry-img">
-                        <img src="../../assets/images/cards/spavacasoba.jpg" alt="" class="img-fluid">
-                    </div>
-
-                    <h2 class="entry-title">
-                        <a translate>products.bedrooms_title</a>
-                    </h2>
-
-
-
-                    <div class="entry-content">
-                        <p translate>
-                            products.bedrooms_text
-                        </p>
-                        <div class="view-gallery">
-                            <a [routerLink]="['/gallery/2']" translate>products.gallery</a>
-                        </div>
-                    </div>
-
-                </article>
-            </div>
-
-            <div class="col-lg-4  col-md-6 d-flex align-items-stretch">
-                <article class="entry card border-secondary mb-3">
-
-                    <div class="entry-img">
-                        <img src="../../assets/images/cards/boravak.jpg" alt="" class="img-fluid">
-                    </div>
-
-                    <h2 class="entry-title">
-                        <a translate>products.living_room_title</a>
-                    </h2>
-
-                    <div class="entry-content">
-                        <p translate>
-                            products.living_room_text
-                        <div class="view-gallery">
-                            <a [routerLink]="['/gallery/3']" translate>products.gallery</a>
-                        </div>
-                    </div>
-
-                </article>
-            </div>
-
-            <div class="col-lg-4  col-md-6 d-flex align-items-stretch">
-                <article class="entry card border-secondary mb-3">
-
-                    <div class="entry-img">
-                        <img src="../../assets/images/cards/vrata.jpg" alt="" class="img-fluid">
-                    </div>
-
-                    <h2 class="entry-title">
-                        <a translate>products.doors_title</a>
-                    </h2>
-
-
-
-                    <div class="entry-content">
-                        <p translate>
-                            products.doors_text
-                        </p>
-                        <div class="view-gallery">
-                            <a [routerLink]="['/gallery/5']" translate>products.gallery</a>
-                        </div>
-                    </div>
-
-                </article>
-            </div>
-
+    
         </div>
+    </section>
+    
+    <!-- ======= Blog Section ======= -->
+    <section id="blog" class="blog">
+        <div class="container">
+    
+            <div class="row">
+    
+                <div class="col-lg-4  col-md-6 d-flex align-items-stretch">
+                    <article class="entry card border-secondary mb-3">
+    
+                        <div class="entry-img">
+                            <img src="../../assets/sokobanja.jpg" alt="" class="img-fluid">
+                        </div>
+    
+                        <h2 class="entry-title">
+                            <h2 class="entry-title"><a>Splav perućac</a></h2>
+                        </h2>
+    
+                        <div class="entry-content">
+                            <p>
+                                Planina Tara, odnosno Nacionalni park Tara predstavlja jednu od najzanimljivijih turističkih destinacija domaćih i stranih 
+                                turista tokom leta, ali i zime. Jedan od razloga zbog kojeg se ljudi odlučuju upravo za boravak na ovom planinskom masivu 
+                                jeste i veliki broj sunčanih dana i povoljni klimatski uslovi. Jasno je da se izuzev odmaranja očiju u prirodnom okruženju 
+                                neverovatne lepote, možete nadisati i svežeg planinskog vazduha koji je iz više razloga pogodan po zdravlje čovekovog organizma.    
+                            </p>
+                            <div class="view-gallery">
+                                <a [routerLink]="['/gallery/0']">Galerija</a>
+                            </div>
+                        </div>
+    
+                    </article>
+                </div>
+    
+                <div class="col-lg-4  col-md-6 d-flex align-items-stretch">
+                    <article class="entry card border-secondary mb-3">
+    
+                        <div class="entry-img">
+                            <img src="../../assets/sokobanja.jpg" alt="" class="img-fluid">
+                        </div>
+    
+                        <h2 class="entry-title">
+                            <h2 class="entry-title"><a>Planinska kuća</a></h2>
+                        </h2>
+    
+                        <div class="entry-content">
+                            <p>
+                                Planina Tara, odnosno Nacionalni park Tara predstavlja jednu od najzanimljivijih turističkih destinacija domaćih i stranih 
+                                turista tokom leta, ali i zime. Jedan od razloga zbog kojeg se ljudi odlučuju upravo za boravak na ovom planinskom masivu 
+                                jeste i veliki broj sunčanih dana i povoljni klimatski uslovi. Jasno je da se izuzev odmaranja očiju u prirodnom okruženju 
+                                neverovatne lepote, možete nadisati i svežeg planinskog vazduha koji je iz više razloga pogodan po zdravlje čovekovog organizma.    
+                            </p>
+                            <div class="view-gallery">
+                                <a [routerLink]="['/gallery/4']" >Galerija</a>
+                            </div>
+                        </div>
+    
+                    </article>
+                </div>
+    
+                <div class="col-lg-4  col-md-6 d-flex align-items-stretch">
+                    <article class="entry card border-secondary mb-3">
+    
+                        <div class="entry-img">
+                            <img src="../../assets/sokobanja.jpg" alt="" class="img-fluid">
+                        </div>
+    
+                        <h2 class="entry-title">
+                            <h2 class="entry-title"><a>Banjska stena</a></h2>
+                        </h2>
+    
+    
+    
+                        <div class="entry-content">
+                            <p>
+                                Planina Tara, odnosno Nacionalni park Tara predstavlja jednu od najzanimljivijih turističkih destinacija domaćih i stranih 
+                                turista tokom leta, ali i zime. Jedan od razloga zbog kojeg se ljudi odlučuju upravo za boravak na ovom planinskom masivu 
+                                jeste i veliki broj sunčanih dana i povoljni klimatski uslovi. Jasno je da se izuzev odmaranja očiju u prirodnom okruženju 
+                                neverovatne lepote, možete nadisati i svežeg planinskog vazduha koji je iz više razloga pogodan po zdravlje čovekovog organizma.    
+                            </p>
+                            <div class="view-gallery">
+                                <a [routerLink]="['/gallery/1']">Galerija</a>
+                            </div>
+                        </div>
+    
+                    </article>
+                </div>
+    
+                <div class="col-lg-4  col-md-6 d-flex align-items-stretch">
+                    <article class="entry card border-secondary mb-3">
+    
+                        <div class="entry-img">
+                            <img src="../../assets/sokobanja.jpg" alt="" class="img-fluid">
+                        </div>
+    
+                        <h2 class="entry-title">
+                            <h2 class="entry-title"><a>Centar apartman</a></h2>
+                        </h2>
+    
+    
+    
+                        <div class="entry-content">
+                            <p>
+                                Planina Tara, odnosno Nacionalni park Tara predstavlja jednu od najzanimljivijih turističkih destinacija domaćih i stranih 
+                                turista tokom leta, ali i zime. Jedan od razloga zbog kojeg se ljudi odlučuju upravo za boravak na ovom planinskom masivu 
+                                jeste i veliki broj sunčanih dana i povoljni klimatski uslovi. Jasno je da se izuzev odmaranja očiju u prirodnom okruženju 
+                                neverovatne lepote, možete nadisati i svežeg planinskog vazduha koji je iz više razloga pogodan po zdravlje čovekovog organizma.    
+                            </p>
+                            <div class="view-gallery">
+                                <a [routerLink]="['/gallery/2']">Galerija</a>
+                            </div>
+                        </div>
+    
+                    </article>
+                </div>
+    
+                <div class="col-lg-4  col-md-6 d-flex align-items-stretch">
+                    <article class="entry card border-secondary mb-3">
+    
+                        <div class="entry-img">
+                            <img src="../../assets/sokobanja.jpg" alt="" class="img-fluid">
+                        </div>
+    
+                        <h2 class="entry-title">
+                            <h2 class="entry-title"><a>Sokobanja</a></h2>
+                        </h2>
+    
+                        <div class="entry-content">
+                            <p>
+                                Planina Tara, odnosno Nacionalni park Tara predstavlja jednu od najzanimljivijih turističkih destinacija domaćih i stranih 
+                                turista tokom leta, ali i zime. Jedan od razloga zbog kojeg se ljudi odlučuju upravo za boravak na ovom planinskom masivu 
+                                jeste i veliki broj sunčanih dana i povoljni klimatski uslovi. Jasno je da se izuzev odmaranja očiju u prirodnom okruženju 
+                                neverovatne lepote, možete nadisati i svežeg planinskog vazduha koji je iz više razloga pogodan po zdravlje čovekovog organizma.    
+                            </p>
+                            <div class="view-gallery">
+                                <a [routerLink]="['/gallery/3']">Galerija</a>
+                            </div>
+                        </div>
+    
+                    </article>
+                </div>
+    
+                <div class="col-lg-4  col-md-6 d-flex align-items-stretch">
+                    <article class="entry card border-secondary mb-3">
+    
+                        <div class="entry-img">
+                            <img src="../../assets/sokobanja.jpg" alt="" class="img-fluid">
+                        </div>
+    
+                        <h2 class="entry-title">
+                            <h2 class="entry-title"><a>Apartman Darija</a></h2>
+                        </h2>
+    
+    
+    
+                        <div class="entry-content">
+                            <p>
+                                Planina Tara, odnosno Nacionalni park Tara predstavlja jednu od najzanimljivijih turističkih destinacija domaćih i stranih 
+                                turista tokom leta, ali i zime. Jedan od razloga zbog kojeg se ljudi odlučuju upravo za boravak na ovom planinskom masivu 
+                                jeste i veliki broj sunčanih dana i povoljni klimatski uslovi. Jasno je da se izuzev odmaranja očiju u prirodnom okruženju 
+                                neverovatne lepote, možete nadisati i svežeg planinskog vazduha koji je iz više razloga pogodan po zdravlje čovekovog organizma.    
+                            </p>
+                            <div class="view-gallery">
+                                <a [routerLink]="['/gallery/5']">Galerija</a>
+                            </div>
+                        </div>
+    
+                    </article>
+                </div>
+    
+            </div>
+    
+        </div>
+    </section>
+</div>
 
-    </div>
-</section>
 
