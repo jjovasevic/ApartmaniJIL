@@ -1,5 +1,12 @@
- 
-<div class="bg-image img1" >
+<div *ngFor="let image of images; let i = index">
+    <div class="bg-image">
+        <a style="cursor: pointer;" data-toggle="modal" data-target="#pictures" (click)="setParams(i+1)">
+                <img src="{{image.img}}" id="pic"/>
+        </a>
+    </div>
+</div>
+
+<!-- <div class="bg-image img1" >
     <img src="../../assets/3.jpg" id = "pic">
 </div>
 <div class="bg-image img2">
@@ -10,8 +17,7 @@
 </div>
 <div class="bg-image img4">
     <img src="../../assets/6.jpg" id = "pic">
-</div>
-<!-- <div class="bg-image img5"></div>
-<div class="bg-image img6"></div> -->
+</div> -->
 
-<div class="bg-text">Banjska stena</div>
+<div class="bg-text">Happy Home</div>
+

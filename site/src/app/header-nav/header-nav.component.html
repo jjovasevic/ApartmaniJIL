@@ -19,6 +19,16 @@ data-target=".navbar-collapse.show">
         <li class="nav-item ">
           <a class="nav-link" [routerLink]="['/contact']">Kontakt</a>
         </li>
+        <li>
+          <form class="form-inline mt-2 mt-md-0">
+            <button type='button' class="btn my-2 my-sm-0 no-outline" data-toggle="collapse"
+              data-target=".navbar-collapse.show" (click)="changeLanguage('sr')"><img src="../../assets/srp.png"
+                style="max-width:27px;">Srpski</button>
+            <button type='button' class="btn my-2 my-sm-0 no-outline" data-toggle="collapse"
+              data-target=".navbar-collapse.show" (click)="changeLanguage('en')"><img src="../../assets/uk.png"
+                style="max-width:27px;">English</button>
+          </form>
+        </li>
       </ul>
     </div>
   </div>
