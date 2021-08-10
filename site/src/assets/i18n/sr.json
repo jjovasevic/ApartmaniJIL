@@ -1,41 +1,116 @@
 {
     "footer": {
-        "motivation_message": "Život je ono što ti se dešava dok ti praviš planove, zato planiraj najbolje uz Tasić enterijere.",
+        "manager_contact": "Kontaktirajte glavnog menadžera",
+        "title1": "O apartmanima",
+        "motivation_message": "Ukoliko tražite mesto za uživanje i odmor, pravi smo za vas!",
+        "price": "Cena",
         "contact": "Kontakt",
-        "location": "Lokacija",
-        "work_hours": "Radno vreme: 07:00-16:00"
-    },
-    "about": {
-        "card_title": "O NAMA",
-        "card_text": " Tasić Enterijeri su firma koja se bavi proizvodnjom namštaja po meri. Već više od 10 godina, kompanija Tasić Enterijeri nudi odličan kvalitet i uslugu. Ono što je započelo kao malo preduzeće sa samo dva radnika, preraslo je u veliko proizvodno preduzeće. Naše usluge pored teritorije Srbije, pružamo i u velikim Evropskim gradovima, kao što su Pariz, Berlin, Minhen, Prag itd.. Naši radovi se kreću od jednostavnih stambenih do složenih projekata sa puno detalja. Uvek pratimo i držimo korak sa najvišim industrijskim standardima. Naše mašine, zajedno sa pažnjom prema detaljima, obezbediće krajnje zadovoljstvo našim klijentima.",
-        "gallery": "Galerija",
-        "contact": "Kontakt",
-        "address": "Adresa:",
-        "phone": "Telefon:"
-    },
-    "header": {
+        "title2": "Pogledajte",
+        "apartments": "Apartmani",
         "home": "Početna",
-        "products": "Proizvodi",
-        "about": "O nama"
+        "title3": "Društvene mreže",
+        "information": "Pogledajte apartmane i komentare naših gostiju putem naših društvenih mreža."
     },
-    "products": {
-        "title": "TASIĆ ENTERIJERI - NAMEŠTAJ PO MERI",
-        "kitchen_title": "KUHINJE",
-        "kitchen_text_1": "„Tasić enterijeri“ su najbrži put do kuhinje iz vaših snova. Tu smo da, ako treba, pomognemo da definišete vaše želje i potrebe i da ih onda kvalitetno i pouzdano realizujemo. Bez obzira na veličinu prostora, naš tim će unjemu isprojektovati maksimalno funkcionalnu kuhinju koja će kuhinjske poslove učiniti lakšim, efikasnijim i prijatnijim.",
-        "kitchen_text_2": "Najukusniji obroci se spremaju u kuhinji po Vašem ukusu!",
-        "gallery": "Galerija",
-        "workspace_title": "POSLOVNI PROSTORI",
-        "workspace_text": "Moderan čovek veliki deo svog života provodi na poslu. Bilo da govorimo o velikim kancelarijama, ili o skromnim kućnim radnim prostorima, ili mestima za sastanke, ili radnim sobama učenika i studenata, ova mesta bi trebalo da budu inteligentno, praktično i efikasno dizajnirana. Prijatan i ergonomski radni ambijent je preduslov za bolje poslovne i intelektualne rezlutate, a „Tasić enterijeri“ vaš uspeh smatraju svojim uspehom.",
-        "wardrobes_title": "PLAKARI",
-        "wardrobes_text": "I u najvećim stambenim jedinicama, smeštanje odeće ume da predstavlja problem. Nekako nam uvek nedostaje još jedan ormar, jedna fioka, jedna polica... Za uređen dom u kojem svaka stvar ima svoje mesto, neophodni su ormari i plakari, koji svojom organizacijom maksimalno koriste, a svojim dizajnom značajno ulepšavaju prostor. „Tasić enterijeri“ imaju bogato iskustvo u izradi svih vrsta ormara i ugradnih američkih plakara.",
-        "bedrooms_title": "SPAVAĆE SOBE",
-        "bedrooms_text": "Bez kvalitetnog sna, nema kvalitetnog života. Zbog toga „Tasić enterijeri“ mnogo pažnje posvećuju uređenju spavaćih soba. Kvalitetni, stabilni i izdržljivi kreveti daće dugogodišnju potporu Vašim mirnim snovima. Komode, police, stalaže, dodatno čine da Vam sve neophodne sitnice ili osvetljenje budu sigurno smeštene na dohvat ruke. Komadi nameštaja za odlaganje odeće, posteljine, učiniće da prostor za odmor bude uredan i prijatan.",
-        "living_room_title": "DNEVNI BORAVAK",
-        "living_room_text": "Dnevni boravak predstavlja centralno mesto za okupljanje porodice i vesela druženja sa prijateljima. Drugo mesto okupljanja i opuštanja je trpezarija u kojoj se odvijaju rituali od jutarnjih ispijanja kafe, preko porodičnih ručkova, do Slava i proslava. „Tasić enterijeri“ se trude da dizajniranjem, projektovanjem i izradom nameštaja za ove prostorije, iste ispune toplinom i stilom i učine da vaši lepi događaji budu još lepši.",
-        "doors_title": "VRATA",
-        "doors_text": "Glavna uloga vrata u svakom domu je da pregrade prostor, da izoluju zvuke i toplotu i da vizuelno odvoje. Ali, vrata nisu samo mesta razdvajanja, već i spajanja, pa je potrebno da svojim karakteristikama omoguće neometan prolaz, kao i da vizuelno odgovore na potrebe enterijera. Iako su se nekada smatrala sastavnim delom zidova, danas su sobna vrata veoma bitan kreativni momenat svakog stambenog objekta."
+
+    "header": {
+        "title": "Happy Home Apartmani",
+        "home": "Početna",
+        "apartments": "Apartmani",
+        "price": "Cena",
+        "contact": "Kontakt"
     },
-    "gallery": {
-        "title": "TASIĆ ENTERIJERI - NAMEŠTAJ PO MERI"
+
+    "homepage": {
+        "title1":"Apartmani iz snova",
+        "title2":"Najatraktivniji apartmani na različitim, ali najlepšim mestima u Srbiji!",
+        "title3":"Pogledajte našu ponudu",
+        "apartments":"Apartmani",
+        "text1":"„Happy Home“ smo osnovali 2017. godine, vođeni željom da Vam pružimo nezaboravan odmor na najatraktivnijim mestima teritorije Srbije. Svi apartmani iz našeg kompleksa, veoma su moderno i praktično opremljeni i pružiće Vam maksimalnu udobnost i funkcionalnost u prijatno dizajniranom enterijeru. Od starta je poseban naglasak stavljen na održavanje higijene, a sa pojavom pandemije Covid 19, higijenski standardi i opremljenost apartmana sredstvima za higijenu i dezinfekciju, su podignuti na najviši nivo. ",
+        "text2":"Apartmani se nalaze na geografskim lokacijama idealnim i za aktivan i za pasivan vid odmora, jer su okruženi nedirnutom prirodom sa jedne strane, a sa druge, jer su odlično povezani sa mnogim turističkim atrakcijama.",
+        "text3": "Poklonite nam poverenje, a mi Vas nećemo izneveriti!",
+        "title4":"Zasto smo uspesni?",
+        "text4":"Zato što se trudimo da uvek budemo korak ispred konkurencije i Vaših očekivanja!"        
+    },
+
+    "apartments": {
+        "gallery":"Galerija",
+        "title":"Happy Home Apartmani",
+        "titlePerucac":"Splav Perućac",
+        "textPerucac":"Perućačko jezero je udaljeno od Bajine Bašte 13 km i okruženo jee planinama Javor, Devetak, Zvijezda i Tara. Na obali jezera, smešten je Splav Perućac, idealan za smeštaj 5 osoba. Splav nudi kompletnu I visokokvalitetu stambenu površinu (dnevni boravak, kuhinja, kupatilo, galerijom sa dve spavaće sobe i staklenim frontom okrenutim ka jezeru) i prostranu natrkrivenu terasu . Čamac za 6 osoba vam stoji na raspolaganju. Parking i bežični internet su obezbeđeni.",
+        "titlePlaninska":"Planinska kuća",
+        "textPlaninska":"Lepote istočne Srbije su nadaleko poznate zahvaljujući netaknutoj prirodi Stare planine. Planinska stena je apartman koji se nalazi na širokom, osunčanom platou iznad sela Crni Vrh, u blizini ski centra Babin zub. To je moderan objekat u okruženju koje pruža mogućnosti za upražnjavanje raznih aktivnosti: šetnja, rekreacija, skijanje i drugi zimski sportovi. Sobe, kuhinja i kupatilo su u opremljene po najvišim standardima, koji su integrisani u ambijent planinske kuće.",
+        "titleTara":"Banjska stena",
+        "textTara" : "Banjska stena se nalazi u Mitrovcu i nudi vrt i pribor za pripremu roštilja, kao i besplatni privatni parking. Mokra Gora je udaljena 40 km od objekta. Sadrži 2 spavaće sobe, 1 kupatilo, flat-screen TV sa satelitskim kanalima, trpezariju, potpuno opremljenu kuhinju i balkon sa pogledom na vrt. Peškiri i posteljina se podrazumevaju. Brvnara raspolaže terasom za sunčanje. Ponuda objekta uključuje dečije igralište, dok se u neposrednoj blizini može uživati u skijanju.",
+        "titleBeograd":"Centar apartman",
+        "textBeograd" : "Centar apartman je smešten u strogom centru Beograda, preko puta hotela “Moskva. Sadrži dnevni boravak sa sofom i flat-screen TV, oddvojeni spavaći deo sa bračnim krevetom, dobro opremljenu kuhinju sa trpezarijom i kupatilo sa tušem, fenom za kosu i besplatnim toaletnim priborom. Na raspolaganju su i mašina za pranje sudova, mikrotalasna rerna i frižider, kao i čajnik i aparat za kafu. Apartman je klimatizovan i ima brz WIFI. Obezbeđen je besplatan parking u garaži ispod Skupštine grada.",
+        "titleSokobanja":"Sokobanja",
+        "textSokobanja" : "Sokobanja apartman je smeštaj sa balkonom i pogledom na grad. Ribarska Banja je udaljena 38 km. Klimatizovani apartman ima 1 spavaću sobu, kuhinju sa trpezarijom, prostor za sedenje opremljen flat-screen TV-om sa kablovskim kanalima i kupatilo sa tušem, besplatanim toaletnim priborom i fenom za kosu. Apartman ima dečje igralište. Gosti objekta apartmana Happy Home mogu da se opuste u vrtu ili da uživaju u pešačenju i ribolovu u blizini smeštaja.",
+        "titleNis":"Apartman Daria",
+        "textNis" : "Apartman Daria nalazi se u Nišu na 500 metara od Niške tvrđave, a sa terase sa pruža pogled na grad. Apartman je klimatizovan, ima jednu spavaću sobu, opremljenu kuhinju, kupatilo sa tušem, flat-screen TV i besplatni WiFi internet. Nedaleko od apartmana nalaze se popularna odredišta, kao što su Narodno pozorište, Spomenik oslobodiocima Niša i Kazandžijsko sokače. Najbliži aerodrom je Aerodrom Konstantin Veliki, udaljen samo 4 km."
+    },
+
+    "contact":{
+        "title":"PIŠITE NAM",
+        "button":"UPOZNAJ NAŠU PONUDU",
+        "motivation_message": "!ODGOVARAMO U NAJBRŽEM MOGUĆEM ROKU!",
+        "office": "Naša poslovnica",
+        "place":"Filmski grad, Beograd",
+        "fon": "Telefon",
+        "send":"Pošalji",
+        "name":"Ime i prezime",
+        "email":"Email",
+        "subject":"Predmet poruke",
+        "message":"Poruka"
+    },
+
+    "price":{
+        "gallery":"POGLEDAJ SMEŠTAJ",
+        "title1":"Pogledajte našu ponudu",
+        "title2":"Cene apartmana",
+        "titlePerucac":"Splav Perućac",
+        "titlePlaninska":"Planinska kuća",
+        "titleTara":"Banjska stena",
+        "titleBeograd":"Centar apartman",
+        "titleSokobanja":"Sokobanja",
+        "titleNis":"Apartman Daria",
+        "titleBungalov":"Bungalow Jelena",
+        "infoP1":"Za četiri odrasle osobe",
+        "infoP2":"Wifi uračunat u cenu",
+        "infoP3":"Parking u blizini splava",
+        "infoP4":"Zaštita od komaraca",
+        "infoP5":"Pribor za pecanje",
+        "infoS1":"Stara planina",
+        "infoS2":"Smeštaj za troje",
+        "infoS3":"Besplatan wifi",
+        "infoS4":"Besplatan parking",
+        "infoS5":"Okružena prirodom",
+        "infoT1":"Planina Tara",
+        "infoT2":"Dozvoljeni ljubimci",
+        "infoT3":"Besplatan parking, wifi",
+        "infoT4":"Piknik prostor",
+        "infoT5":"Stoni tenis",
+        "infoB1":"Centar Beograda",
+        "infoB2":"Apartman za dvoje",
+        "infoB3":"Besplatan wifi, parking",
+        "infoB4":"Klima uključena u cenu",
+        "infoB5":"Prostor za pušače",
+        "infoSoko1":"Smeštaj za troje",
+        "infoSoko2":"Smešten u samom centru",
+        "infoSoko3":"Besplatan parking",
+        "infoSoko4":"Besplatan wifi",
+        "infoSoko5":"Dozvoljeni kućni ljubimci",
+        "infoN1":"Smeštaj za troje",
+        "infoN2":"Centar grada",
+        "infoN3":"Wifi",
+        "infoN4":"Besplatna garaža",
+        "infoK1":"Smeštaj za četvoro",
+        "infoK2":"Škola skijanja, skijašnica",
+        "infoK3":"Besplatan parking, wifi",
+        "infoF1":"Smeštaj za petoro",
+        "infoF2":"Škola jahanja",
+        "infoF3":"Stoni tenis, bicikli",
+        "soon":"USKORO U PONUDI"
     }
+
+    
 }

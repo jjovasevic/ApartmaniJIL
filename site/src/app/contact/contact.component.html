@@ -14,10 +14,11 @@
 	
 	<div class="text-box">
 		<h1 class="heading-primary">
-			<span class="heading-primary-main">Heading Primary Main</span>
-			<span class="heading-primary-sub">The secondary heading</span>
+			<!-- <span class="heading-primary-main">Happy Home</span> -->
+            <span class="heading-primary-main" translate>contact.title</span>
+			<!-- <span class="heading-primary-sub" translate>contact.title</span> -->
 		</h1>
-		<a href="#" class="btn btn-white btn-animated">Discover our tours</a>
+		<a href="apartments" class="btn btn-white btn-animated" translate>contact.button</a>
 	</div>
 </header>
 
@@ -27,7 +28,7 @@
             <div class="col-lg-6">
                 <div class="section-title">
                     <!-- <h2>!Kontaktirajte nas!</h2> -->
-                    <p>!Odgovaramo u najbržem mogućem roku!</p>
+                    <p translate>contact.motivation_message</p>
                 </div>
             </div>
         </div>
@@ -40,7 +41,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input id="name" type="text" placeholder="Ime i prezime" class="form-control" name="name" required> 
+                                    <input id="name" type="text" placeholder="Name and surname" class="form-control" name="name" required> 
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -50,17 +51,17 @@
                             </div>
                             <div class="col-12">
                                 <div class="form-group">
-                                    <input id="subject" type="text" placeholder="Predmet poruke" class="form-control"> 
+                                    <input id="subject" type="text" placeholder="The subject of the message" class="form-control"> 
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <textarea id="message" placeholder="Poruka" class="form-control" rows="3"></textarea> 
+                                    <textarea id="message" name="message" placeholder="Write message" class="form-control" rows="3"></textarea> 
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="send">
-                                    <button id="send_message" class="btn btn-secondary btn-lg btn-block" type="submit"><span>Pošalji</span> <i class="arrow"></i></button>
+                                    <button id="send_message" class="btn btn-secondary btn-lg btn-block" type="submit"><span translate>contact.send</span> <i class="arrow"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -73,14 +74,14 @@
                     <p>jovasevicjul@gmail.com</p>
                 </div>
                 <div class="contact-name">
-                    <h5>Naša poslovnica</h5>
-                    <p>Arčibalda Rajsa 11, <br>Filmski grad, Beograd</p>
+                    <h5 translate>contact.office</h5>
+                    <p translate>Arčibalda Rajsa 11, <br>contact.place</p>
                 </div>
                 <div class="contact-name">
-                    <h5>Telefon</h5>
+                    <h5 translate>contact.fon</h5>
                     <p>+381658935189</p>
                 </div>
-                <div class="social-share nav">
+                <!-- <div class="social-share nav">
                     <a class="dribbble" href="https://www.facebook.com/ZumAltenMoar/">
                         <i class="fab fa-dribbble"></i>
                     </a>
@@ -90,7 +91,7 @@
                     <a class="linkedin" href="https://www.youtube.com/watch?v=2EJNhvht9hg">
                         <i class="fab fa-linkedin-in"></i>
                     </a>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
