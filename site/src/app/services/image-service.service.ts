@@ -39,7 +39,7 @@ export class ImageServiceService {
       { img: "../../assets/images/5/4.jpg", id: 5 },
       { img: "../../assets/images/5/5.jpg", id: 5 },
       { img: "../../assets/images/5/6.jpg", id: 5 },
-      { img: "../../assets/images/5/7.jpg", id: 5 },
+      { img: "../../assets/images/5/7.jpg", id: 5 }
     ];
   }
 

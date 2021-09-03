@@ -1,7 +1,12 @@
+<head> 
+    <meta name="description" content="Pictures of Happy Home apartments will delight you. So much beautiful nature and socializing, all in the Happy Home 
+    apartments. Pictures of apartments on Tara, Kopaonik, Belgrade, Nis, Sokobanja ...">
+</head>
+
 <div *ngFor="let image of images; let i = index">
     <div class="bg-image">
         <a style="cursor: pointer;" data-toggle="modal" data-target="#pictures" (click)="setParams(i+1)">
-                <img src="{{image.img}}" id="pic"/>
+                <img src="{{image.img}}" id="pic" alt="Pictures of apartments"/>
         </a>
     </div>
 </div>
